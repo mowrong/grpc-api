@@ -120,7 +120,7 @@ const file_hello_hello_proto_rawDesc = "" +
 	"HelloReply\x12\x18\n" +
 	"\amessage\x18\x01 \x01(\tR\amessage2=\n" +
 	"\aGreeter\x122\n" +
-	"\bSayHello\x12\x13.hello.HelloRequest\x1a\x11.hello.HelloReplyB)Z'github.com/mowrong/grpc-api/hello;hellob\x06proto3"
+	"\bSayHello\x12\x13.hello.HelloRequest\x1a\x11.hello.HelloReplyB\x16Z\x14./golang/hello;hellob\x06proto3"
 
 var (
 	file_hello_hello_proto_rawDescOnce sync.Once
