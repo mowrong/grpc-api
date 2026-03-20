@@ -1,5 +1,5 @@
 PROTOC = protoc
-PROTO_DIR = hello
+PROTO_DIR = proto
 OUT_DIR = .
 
 all:

@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package calc;
+
+option go_package = "./golang/calc;calc";
+
+service Calculator {
+  rpc Add (CalcRequest) returns (CalcReply);
+  rpc Subtract (CalcRequest) returns (CalcReply);
+}
+
+message CalcRequest {
+  double a = 1;
+  double b = 2;
+}
+
+message CalcReply {
+  double result = 1;
+}
